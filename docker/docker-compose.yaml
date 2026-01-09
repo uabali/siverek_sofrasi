@@ -1,0 +1,31 @@
+services:
+  oracle-db:
+    image: gvenzl/oracle-xe:21-slim
+    container_name: oracle_xe
+    restart: unless-stopped
+    ports:
+      - "1521:1521"
+    environment:
+      - ORACLE_PASSWORD=oracle123
+      - APP_USER=recipeasy
+      - APP_USER_PASSWORD=recipeasy123
+    volumes:
+      - ./oracle/init:/container-entrypoint-initdb.d
+
+  php-app:
+    build:
+      context: ../
+      dockerfile: docker/php/Dockerfile
+    container_name: php-app
+    ports:
+      - "8080:80"
+    environment:
+      - DB_DRIVER=sqlite
+      - ORACLE_HOST=oracle-db
+      - ORACLE_PORT=1521
+      - ORACLE_SERVICE=XEPDB1
+      - ORACLE_USERNAME=recipeasy
+      - ORACLE_PASSWORD=recipeasy123
+    volumes:
+      - ../:/var/www
+

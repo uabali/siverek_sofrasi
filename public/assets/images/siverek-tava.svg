@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tava (Pan) -->
+  <ellipse cx="100" cy="120" rx="75" ry="25" fill="#2d2d2d"/>
+  <ellipse cx="100" cy="115" rx="70" ry="22" fill="#3d3d3d"/>
+  <ellipse cx="100" cy="110" rx="65" ry="20" fill="#8B4513"/>
+  
+  <!-- Pan Handle -->
+  <rect x="165" y="105" width="30" height="12" rx="3" fill="#2d2d2d"/>
+  
+  <!-- Meat pieces -->
+  <ellipse cx="80" cy="105" rx="18" ry="10" fill="#CD853F"/>
+  <ellipse cx="80" cy="103" rx="16" ry="8" fill="#DEB887"/>
+  
+  <ellipse cx="115" cy="108" rx="16" ry="9" fill="#CD853F"/>
+  <ellipse cx="115" cy="106" rx="14" ry="7" fill="#DEB887"/>
+  
+  <ellipse cx="95" cy="115" rx="14" ry="8" fill="#CD853F"/>
+  <ellipse cx="95" cy="113" rx="12" ry="6" fill="#DEB887"/>
+  
+  <!-- Tomato slices -->
+  <circle cx="70" cy="115" r="8" fill="#FF6347"/>
+  <circle cx="70" cy="115" r="5" fill="#FF7F7F"/>
+  
+  <circle cx="125" cy="100" r="7" fill="#FF6347"/>
+  <circle cx="125" cy="100" r="4" fill="#FF7F7F"/>
+  
+  <!-- Pepper pieces -->
+  <ellipse cx="60" cy="100" rx="6" ry="4" fill="#228B22"/>
+  <ellipse cx="130" cy="115" rx="5" ry="3" fill="#228B22"/>
+  <ellipse cx="105" cy="98" rx="5" ry="3" fill="#32CD32"/>
+  
+  <!-- Steam -->
+  <path d="M75 85 Q70 75 75 65" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M100 80 Q95 70 100 60" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M125 85 Q120 75 125 65" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="100" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B4513">Siverek Tava</text>
+</svg>

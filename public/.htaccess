@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Var olan dosya/klasörlere dokunma
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Diğer her şeyi front controller'a yönlendir
+  RewriteRule ^ index.php [L]
+</IfModule>

@@ -1,0 +1,20 @@
+# Genel PHP
+vendor/
+.env
+*.log
+.DS_Store
+
+# IDE ayarları
+.idea/
+*.iml
+
+# Yüklemeler ve cache
+storage/
+public/assets/images/uploads/
+
+# Docker çıktıları
+docker/oracle/data/
+docker/oracle/init/*.log
+
+# OS dosyaları
+Thumbs.db
