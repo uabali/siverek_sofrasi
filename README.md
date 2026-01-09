@@ -1,4 +1,4 @@
-# Recipeasy - Recipe Sharing Web Application
+# Siverek Sofrasi - Web Application
 
 A web application where users can share recipes, leave comments, and rate dishes. The system implements role-based authorization to provide different permissions for different user types.
 
