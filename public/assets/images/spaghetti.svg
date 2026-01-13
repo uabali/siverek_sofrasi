@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="1" stop-color="#ffedd5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g transform="translate(600 420)">
+    <ellipse rx="360" ry="220" fill="#f8fafc" stroke="#e5e7eb" stroke-width="8"/>
+    <ellipse rx="270" ry="155" fill="#fef2f2" stroke="#fecaca" stroke-width="6"/>
+
+    <!-- sauce -->
+    <path d="M-220 -30 C-130 -120 40 -120 170 -30 C230 30 170 120 40 120 C-160 120 -270 50 -220 -30 Z" fill="#dc2626" opacity="0.88"/>
+
+    <!-- spaghetti lines -->
+    <g fill="none" stroke="#fbbf24" stroke-width="14" stroke-linecap="round" opacity="0.95">
+      <path d="M-210 10 C-120 -40 -20 -35 90 20"/>
+      <path d="M-160 55 C-90 0 30 10 155 70"/>
+      <path d="M-190 -10 C-80 -85 50 -70 180 0"/>
+      <path d="M-120 95 C-30 35 70 55 145 115"/>
+    </g>
+
+    <!-- basil -->
+    <g fill="#16a34a" opacity="0.9">
+      <path d="M-30 -60 C-70 -95 -110 -65 -95 -30 C-80 0 -35 -5 -30 -60 Z"/>
+      <path d="M15 -70 C60 -105 105 -70 90 -35 C75 -5 25 -10 15 -70 Z"/>
+    </g>
+
+    <text x="0" y="260" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" fill="#334155">Spagetti</text>
+  </g>
+</svg>

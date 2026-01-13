@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <radialGradient id="meat" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#a16207"/>
+      <stop offset="1" stop-color="#7c2d12"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g transform="translate(600 420)">
+    <ellipse rx="360" ry="220" fill="#f8fafc" stroke="#e5e7eb" stroke-width="8"/>
+    <ellipse rx="290" ry="170" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="6"/>
+
+    <!-- köfte balls -->
+    <g>
+      <circle cx="-140" cy="-30" r="75" fill="url(#meat)"/>
+      <circle cx="10" cy="-60" r="80" fill="url(#meat)"/>
+      <circle cx="160" cy="-10" r="72" fill="url(#meat)"/>
+      <circle cx="-40" cy="70" r="78" fill="url(#meat)"/>
+
+      <!-- grill marks -->
+      <g stroke="#111827" stroke-width="10" opacity="0.25" stroke-linecap="round">
+        <path d="M-190 -55 L-95 -5"/>
+        <path d="M-170 -15 L-95 25"/>
+        <path d="M-20 -95 L60 -35"/>
+        <path d="M-10 -55 L70 5"/>
+        <path d="M120 -55 L210 0"/>
+        <path d="M130 -15 L210 35"/>
+        <path d="M-80 35 L10 95"/>
+        <path d="M-60 -5 L20 55"/>
+      </g>
+    </g>
+
+    <!-- salad -->
+    <g fill="#22c55e" opacity="0.9">
+      <path d="M-250 120 C-220 70 -160 75 -170 130 C-180 180 -240 175 -250 120 Z"/>
+      <path d="M250 120 C220 70 160 75 170 130 C180 180 240 175 250 120 Z"/>
+    </g>
+
+    <text x="0" y="260" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="44" fill="#334155">Köfte</text>
+  </g>
+</svg>
